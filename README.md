@@ -19,3 +19,7 @@ Você pode jogar diretamente pelo navegador, sem precisar instalar nada:
 - HTML5
 - CSS3 (animações)
 - JavaScript puro (sem frameworks)
+
+Observações
+
+Este projeto foi feito com fins educacionais e de prática pessoal, inspirado em jogos clássicos de plataforma. Todos os direitos do personagem pertencem à Nintendo.
