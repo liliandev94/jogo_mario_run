@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Menu inicial -->
+    <div id="menu">
+      <h1>Super Mario</h1>
+      <button id="play-btn">Jogar</button>
+      <button id="help-btn">Como jogar</button>
+    </div>
+
+    <!-- Tela de instruções -->
+    <div id="help" style="display: none">
+      <p>Pressione **Espaço** ou **Seta para cima** para pular.</p>
+      <p>Tente evitar os canos e ganhar pontos!</p>
+      <button id="back-btn">Voltar</button>
+    </div>
+
+    <!-- Gameplay -->
+    <div id="game">
+      <img class="mario" src="img/mario.gif" alt="Mario" />
+      <img class="pipe" src="img/pipe.png" alt="Cano" />
+      <img class="clouds" src="img/clouds.png" alt="Nuvens" />
+      <button class="start" style="display: none">Iniciar</button>
+    </div>
+
+    <!-- Game Over -->
+    <div id="game-over" style="display: none">
+      <h1>Game Over :(</h1>
+      <button onclick="restartGame()">Reiniciar</button>
+    </div>
+
+    <div id="touch-area"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
